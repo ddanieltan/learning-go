@@ -31,7 +31,7 @@ func main(){
     }
 
     // Creating csv writer
-    wFile, err := os.Create("data/result.csv")
+    wFile, err := os.Create("data/result_channels.csv")
     if err != nil {
         fmt.Println("Error:",err)
         return
